@@ -6,7 +6,13 @@ namespace burgershack2
     {
         static void Main(string[] args)
         {
-    
+            Console.clear();
+            ListingController Menu= new ListingController(); 
+            while(true); 
+            {
+            Menu.userInput(); 
+            }
+
         }
     }
 }
