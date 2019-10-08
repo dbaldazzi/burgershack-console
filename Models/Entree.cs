@@ -1,16 +1,23 @@
+
+using burgershack2.Interfaces;
+
+
 namespace burgershack2.Models
 {
-    public class Entree
-    {
-        public override string GetTemplate()
-        {
-            return $@"
-            Name: {Name}
-            Description: {Description}
-            Price: {Price} 
+  public class Entree : FoodItem, IPurchasable
+  {
+    public Entree(string name, string description, double basePrice, int calories, int fat, int protein) : base(name, description, basePrice, calories, fat, protein)
+    { }
 
-            press any key to return to menu";
-        }
-        public Entree(string Name, string Description, double price): base(name, description, price)
-    }
+
+    // public override string GetTemplate()
+    // {
+    //     return $@"
+    //     Name: {Name}
+    //     Description: {Description}
+    //     Price: {Price} 
+
+    //     "press any key to return to menu"; 
+    // }
+  }
 }

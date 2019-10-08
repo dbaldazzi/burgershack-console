@@ -1,17 +1,21 @@
+
+using burgershack2.Interfaces;
+
 namespace burgershack2.Models
 {
-    public class Sides
+  public class Side : FoodItem, IPurchasable
+  {
+
+    public override string GetTemplate()
     {
-        public override string GetTemplate()
-        {
-            return $@"
+      return $@"
             Name: {Name}
             Description: {Description}
-            Price: {Price}
+            Price: {BasePrice}
             
             Any key to return to Menu";
-        }
-
-        public Sides(string name, string Description, double Price): base(sname, description, price)
     }
+
+    public Side(string name, string description, double basePrice, int cals, int fat, int protein) : base(name, description, basePrice, cals, fat, protein) { }
+  }
 }

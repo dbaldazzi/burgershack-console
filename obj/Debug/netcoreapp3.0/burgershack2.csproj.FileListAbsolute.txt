@@ -1,0 +1,11 @@
+C:\source\codeworks\csharp\burgershack2\bin\Debug\netcoreapp3.0\burgershack2.deps.json
+C:\source\codeworks\csharp\burgershack2\bin\Debug\netcoreapp3.0\burgershack2.dll
+C:\source\codeworks\csharp\burgershack2\bin\Debug\netcoreapp3.0\burgershack2.pdb
+C:\source\codeworks\csharp\burgershack2\obj\Debug\netcoreapp3.0\burgershack2.csprojAssemblyReference.cache
+C:\source\codeworks\csharp\burgershack2\obj\Debug\netcoreapp3.0\burgershack2.AssemblyInfoInputs.cache
+C:\source\codeworks\csharp\burgershack2\obj\Debug\netcoreapp3.0\burgershack2.AssemblyInfo.cs
+C:\source\codeworks\csharp\burgershack2\obj\Debug\netcoreapp3.0\burgershack2.dll
+C:\source\codeworks\csharp\burgershack2\obj\Debug\netcoreapp3.0\burgershack2.pdb
+C:\source\codeworks\csharp\burgershack2\bin\Debug\netcoreapp3.0\burgershack2.exe
+C:\source\codeworks\csharp\burgershack2\bin\Debug\netcoreapp3.0\burgershack2.runtimeconfig.json
+C:\source\codeworks\csharp\burgershack2\bin\Debug\netcoreapp3.0\burgershack2.runtimeconfig.dev.json

@@ -1,18 +1,21 @@
 ﻿using System;
+using burgershack2.Controller;
+using burgershack2.Services;
 
 namespace burgershack2
 {
-    class Program
+  class Program
+  {
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.clear();
-            ListingController Menu= new ListingController(); 
-            while(true); 
-            {
-            Menu.userInput(); 
-            }
+      Console.Clear();
+      var service = new EntreeService();
+      EntreeController menu = new EntreeController(service);
+      while (true)
+      {
+        menu.UserInput();
+      }
 
-        }
     }
+  }
 }
